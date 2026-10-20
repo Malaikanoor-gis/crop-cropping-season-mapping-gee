@@ -2,7 +2,21 @@
 
 A multi-sensor (Sentinel-2 optical + Sentinel-1 radar + terrain) Random Forest workflow in Google Earth Engine and Python. It maps land cover and cropland across two districts of northern Punjab, Pakistan (about 12,400 km²), estimates areas with uncertainty, and checks accuracy against points labelled by hand on high-resolution imagery.
 
-**Main question:** how much cropland is there, how is it used across seasons, and how far can the numbers be trusted?
+**Main question:** how much cropland is there, how is it used across seasons, and how far can the numbers be trusted?## Maps and figures
+
+### Land-cover map, 2024-25
+![Land-cover map](results/figures/map_landcover_2024_25.png)
+
+Legend: blue = water, dark green = trees, tan = rangeland/shrub, yellow = cropland, red = built-up, grey = bare.
+
+### Feature sets, random vs spatial-block cross-validation
+![Benchmark](results/figures/fig_benchmark.png)
+
+### Confusion matrix (agreement with automatic labels, not true accuracy)
+![Confusion matrix](results/figures/fig_confusion.png)
+
+### Crop-year NDVI profile of mapped cropland
+![NDVI profile](results/figures/fig_ndvi_profile.png)
 
 ## Key results
 
