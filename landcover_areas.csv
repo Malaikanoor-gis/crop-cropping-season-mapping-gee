@@ -1,0 +1,19 @@
+district,class,share_%,area_km2,95%_CI_km2,n_points
+Rawalpindi,Water,0.8,50,25,1798
+Chakwal,Water,0.6,36,22,1800
+Both districts,Water,0.7,86,33,3598
+Rawalpindi,Trees,32.8,1963,130,1798
+Chakwal,Trees,11.8,759,96,1800
+Both districts,Trees,21.9,2722,161,3598
+Rawalpindi,Rangeland/shrub,9.2,550,80,1798
+Chakwal,Rangeland/shrub,22.3,1429,123,1800
+Both districts,Rangeland/shrub,16.0,1979,147,3598
+Rawalpindi,Cropland,42.4,2539,137,1798
+Chakwal,Cropland,50.2,3218,148,1800
+Both districts,Cropland,46.4,5757,202,3598
+Rawalpindi,Built-up,12.2,730,91,1798
+Chakwal,Built-up,5.9,381,70,1800
+Both districts,Built-up,9.0,1111,115,3598
+Rawalpindi,Bare,2.7,160,45,1798
+Chakwal,Bare,9.2,592,86,1800
+Both districts,Bare,6.1,751,97,3598

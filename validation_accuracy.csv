@@ -1,0 +1,5 @@
+metric,value
+overall_accuracy_area_weighted,0.7785271837982704
+cropland_users_accuracy,0.8214285714285714
+cropland_producers_accuracy,0.7333497518113572
+n_points,114.0

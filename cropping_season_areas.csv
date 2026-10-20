@@ -1,0 +1,37 @@
+ndvi_threshold,district,season_class,share_of_cropland_%,area_km2,n_cropland_points
+0.4,Rawalpindi,Fallow / not sown,11.7,297,762
+0.4,Rawalpindi,Rabi only (winter crop),8.5,217,762
+0.4,Rawalpindi,Kharif only (summer crop),34.9,886,762
+0.4,Rawalpindi,Double cropped,44.9,1140,762
+0.4,Chakwal,Fallow / not sown,19.2,616,903
+0.4,Chakwal,Rabi only (winter crop),18.2,584,903
+0.4,Chakwal,Kharif only (summer crop),39.9,1283,903
+0.4,Chakwal,Double cropped,22.8,734,903
+0.4,Both districts,Fallow / not sown,15.9,913,1665
+0.4,Both districts,Rabi only (winter crop),13.9,801,1665
+0.4,Both districts,Kharif only (summer crop),37.7,2169,1665
+0.4,Both districts,Double cropped,32.5,1874,1665
+0.45,Rawalpindi,Fallow / not sown,18.6,473,762
+0.45,Rawalpindi,Rabi only (winter crop),8.9,227,762
+0.45,Rawalpindi,Kharif only (summer crop),39.9,1013,762
+0.45,Rawalpindi,Double cropped,32.5,826,762
+0.45,Chakwal,Fallow / not sown,27.5,884,903
+0.45,Chakwal,Rabi only (winter crop),18.1,581,903
+0.45,Chakwal,Kharif only (summer crop),38.1,1226,903
+0.45,Chakwal,Double cropped,16.4,527,903
+0.45,Both districts,Fallow / not sown,23.6,1357,1665
+0.45,Both districts,Rabi only (winter crop),14.0,807,1665
+0.45,Both districts,Kharif only (summer crop),38.9,2239,1665
+0.45,Both districts,Double cropped,23.5,1354,1665
+0.5,Rawalpindi,Fallow / not sown,27.7,703,762
+0.5,Rawalpindi,Rabi only (winter crop),9.1,230,762
+0.5,Rawalpindi,Kharif only (summer crop),41.6,1056,762
+0.5,Rawalpindi,Double cropped,21.7,550,762
+0.5,Chakwal,Fallow / not sown,37.4,1204,903
+0.5,Chakwal,Rabi only (winter crop),16.1,517,903
+0.5,Chakwal,Kharif only (summer crop),35.5,1144,903
+0.5,Chakwal,Double cropped,11.0,353,903
+0.5,Both districts,Fallow / not sown,33.1,1908,1665
+0.5,Both districts,Rabi only (winter crop),13.0,747,1665
+0.5,Both districts,Kharif only (summer crop),38.2,2200,1665
+0.5,Both districts,Double cropped,15.7,903,1665
