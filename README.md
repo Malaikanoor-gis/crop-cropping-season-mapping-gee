@@ -4,7 +4,7 @@ A multi-sensor (Sentinel-2 optical + Sentinel-1 radar + terrain) Random Forest w
 
 **Main question:** how much cropland is there, how is it used across seasons, and how far can the numbers be trusted?
 
-![Land-cover map of Chakwal and Rawalpindi, crop year 2024-25](figures/map_landcover_2024_25.png)
+![Land-cover map of Chakwal and Rawalpindi, crop year 2024-25](map_landcover_2024_25.png)
 
 *Random Forest land-cover map (Sentinel-2 + Sentinel-1 + terrain), crop year 2024-25.*
 
@@ -27,14 +27,14 @@ A multi-sensor (Sentinel-2 optical + Sentinel-1 radar + terrain) Random Forest w
 | Optical + SAR | 0.669 | 0.667 | 0.754 |
 | Optical + SAR + terrain | 0.678 | 0.679 | 0.763 |
 
-![Accuracy by feature set, random vs spatial-block cross-validation](figures/fig_benchmark.png)
+![Accuracy by feature set, random vs spatial-block cross-validation](fig_benchmark.png)
 
 What this shows:
 - Random and spatial-block cross-validation give almost identical scores, so spatial autocorrelation between neighbouring points does not appear to inflate the results much.
 - Radar alone is weak, but adding it to optical data improves accuracy, and terrain adds a little more.
 - These scores measure agreement with automatic Dynamic World labels, not true accuracy. The manual validation below is the independent check.
 
-![Confusion matrix against Dynamic World labels (spatial-block CV)](figures/fig_confusion.png)
+![Confusion matrix against Dynamic World labels (spatial-block CV)](fig_confusion.png)
 
 *Confusion matrix (spatial-block CV) shows agreement with the automatic labels, not true accuracy.*
 
@@ -77,7 +77,7 @@ Share of mapped cropland, with a sensitivity test on the NDVI threshold (0.45 is
 
 Rabi-only and kharif-only shares are stable across thresholds. The split between double-cropped and fallow depends strongly on the threshold, so treat the season results as indicative, not validated.
 
-![Mean NDVI of mapped cropland by month, Nov 2024 to Oct 2025](figures/fig_ndvi_profile.png)
+![Mean NDVI of mapped cropland by month, Nov 2024 to Oct 2025](fig_ndvi_profile.png)
 
 ## Method
 
@@ -120,8 +120,8 @@ Rabi-only and kharif-only shares are stable across thresholds. The split between
 | `map_weights.json` | Mapped cropland share used to weight the accuracy and area estimates |
 | `validation_sheet_BLIND.csv` | Blind validation sheet (map class hidden) |
 | `validation_key_DO_NOT_OPEN.csv` | Map class of each validation point, kept separate so labelling stayed blind |
-| `figures/map_landcover_2024_25.png` | Land-cover map |
-| `figures/fig_benchmark.png`, `figures/fig_confusion.png`, `figures/fig_ndvi_profile.png` | Figures shown in this README |
+| `map_landcover_2024_25.png` | Land-cover map |
+| `fig_benchmark.png`, `fig_confusion.png`, `fig_ndvi_profile.png` | Figures shown in this README |
 
 ## How to run
 
